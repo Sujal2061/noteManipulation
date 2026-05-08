@@ -2,6 +2,10 @@ GET http://localhost:3001/api/notes
 
 ###
 
+GET http://localhost:3001/api/notes/69ef4365614baf84a9171f
+
+###
+
 POST http://localhost:3001/api/notes
 Content-Type: application/json
 
