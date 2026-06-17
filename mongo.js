@@ -10,7 +10,7 @@ const password = process.argv[2]
 // const url = `mongodb+srv://sujalkoirala404_db_user:${password}@cluster0.jgjrnr1.mongodb.net/noteApp?appName=Cluster0`
 const url = `mongodb://sujalkoirala404_db_user:${password}@ac-8mergjl-shard-00-00.jgjrnr1.mongodb.net:27017,ac-8mergjl-shard-00-01.jgjrnr1.mongodb.net:27017,ac-8mergjl-shard-00-02.jgjrnr1.mongodb.net:27017/noteApp?ssl=true&replicaSet=atlas-hjkvgq-shard-0&authSource=admin&appName=Cluster0`
 
-mongoose.set('strictQuery',false) 
+mongoose.set('strictQuery',false)
 
 mongoose.connect(url, { family: 4 })
 
